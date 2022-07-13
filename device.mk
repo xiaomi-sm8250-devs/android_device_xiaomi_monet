@@ -35,8 +35,5 @@ PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
     libmegface
 
-# Properties
--include $(LOCAL_PATH)/properties.mk
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/monet/monet-vendor.mk)
